@@ -1,7 +1,3 @@
-venv/
-__pycache__/
-instance/
-
 # Logs
 logs
 *.log
@@ -41,4 +37,3 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
-.vscode

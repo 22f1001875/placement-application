@@ -7,6 +7,10 @@ class BaseConfig:
     SECRET_KEY = "dev-secret-key"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     WTF_CSRF_ENABLED = False
+    SECURITY_API_ENABLED = True
+    SECURITY_JSONIFY_RESPONSES = True
     SECURITY_PASSWORD_HASH = "bcrypt"
     SECURITY_PASSWORD_SALT = "dev-password-salt"
     SECURITY_TOKEN_AUTHENTICATION_HEADER = "Authentication-Token"
+    SECURITY_TOKEN_AUTHENTICATION_KEY = "authentication_token"
+    SECURITY_TOKEN_MAX_AGE = 3600

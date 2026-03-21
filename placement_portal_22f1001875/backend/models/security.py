@@ -1,7 +1,6 @@
 from config import db
 from flask_security import UserMixin, RoleMixin
 
-
 class Role(db.Model, RoleMixin):
     __tablename__ = "roles"
 
